@@ -1,0 +1,32 @@
+{%- set pageTitle %}{% if title %} {{title}} {% else %} {{ site.title }} {% endif %}{% endset -%}
+{%- set pageDescription %}{% if description %} {{ description }} {% else %} {{ site.description }} {% endif %}{% endset -%}
+
+<!-- Showcase -->
+<section>
+  <div class="container">
+    <div>
+      <div>
+        <h1>{{ pageTitle }}</h1>
+        <p>{{ pageDescription }}</p>
+        <div class="navbar" id="navmenu">
+        <ul class="navbar">
+          {% if defualt %}
+            {% for item in site.showcase %}
+            <li>
+              <a href="{{ item.url }}" class="nav-link">{{ item.title}}</a>
+            </li>
+            {% endfor %}
+          {% else %}
+            {% for item in site.404showcase %}
+            <li>
+              <a href="{{ item.url }}" class="nav-link">{{ item.title}}</a>
+            </li>
+            {% endfor %}
+          {% endif %}
+        </ul>
+      </div>
+      </div>
+      <!-- <img src="assets/img/#.svg" alt="temp"> -->
+    </div>
+  </div>
+</section>

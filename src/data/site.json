@@ -1,0 +1,57 @@
+{
+  "title": "header title",
+  "shortname": "ht",
+  "description": "header or showcase description",
+  "githubUrl": "https://github.com",
+  "date": 2022,
+  "copyright": "2022 Company, Inc",
+  "navigation": [
+    {
+      "page": "home",
+      "url": "/"
+    },
+    {
+      "page": "temp1",
+      "url": "/temp1"
+    },
+    {
+      "page": "temp2",
+      "url": "/temp2"
+    }
+  ],
+
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com/ExampleUser",
+      "icon": "github"
+    },
+    {
+      "platform": "temp1",
+      "url": "#",
+      "icon": "temp1"
+    },
+    {
+      "platform": "temp2",
+      "url": "#",
+      "icon": "temp2"
+    }
+  ],
+
+  "showcase": [
+    {
+      "title": "explore docs",
+      "url": "#"
+    },
+    {
+      "title": "visit github repository",
+      "url": "https://github.com/ExampleUser/ExampleRepo"
+    }
+  ],
+  "404showcase": [
+    {
+      "title": "return home",
+      "url": "/"
+    }
+  ]
+}

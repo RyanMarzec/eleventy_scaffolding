@@ -1,0 +1,15 @@
+<div class="container">
+  <footer>
+    <div>
+      <span>&copy; {{ site.copyright }}</span>
+    </div>
+
+    <ul class="nav">
+      {% for item in site.socials %}
+         <li>
+            <a href="{{ item.url }}" class="nav-link">{{ item.icon}}</a>
+          </li>
+        {% endfor %}
+    </ul>
+  </footer>
+</div>

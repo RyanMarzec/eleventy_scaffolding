@@ -1,0 +1,15 @@
+---
+layout: base
+defualt: true
+---
+<!-- include pageShowcase -->
+{% include "partials/pageShowcase.njk" %}
+
+<!-- home page content -->
+<section>
+  <div class="container">
+    <main>
+      {{content | safe}}
+    </main>
+  </div>
+</section>

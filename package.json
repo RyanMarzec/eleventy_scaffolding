@@ -1,0 +1,19 @@
+{
+  "name": "eleventy_scaffolding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "debug": "DEBUG=* npx eleventy --config=lib/eleventy.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}

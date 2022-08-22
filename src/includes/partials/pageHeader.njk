@@ -1,0 +1,18 @@
+<header>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="" class="navbar-brand"> {{ site.shortname }} </a>
+
+      <div class="navbar" id="navmenu">
+        <ul class="navbar">
+         {% for item in site.navigation %}
+         <li>
+            <a href="{{ item.url }}" class="nav-link">{{ item.page}}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
