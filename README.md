@@ -9,7 +9,7 @@ This is a project I made learn about SSG with [11ty](https://https://www.11ty.de
 - The intention of this project is to provide the full file structure and templating to expand with any CCS framework or other useful web-development frameworks. 
 - Since there is no CSS the only layouts provided are the index and 404 pages. Other pages will need to be created and styled based on the template or project you wish to build. 
 
-##Getting Started
+## Getting Started
 
 ### 1. Clone this Repository
 ```
